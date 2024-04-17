@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: black;
+}
+
+li{
+    list-style: none;
+    color:yellow;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: black;
+}
+
+li:hover{
+    color:#00f0ff;
+}
+
+#logo{
+    width:150px;
+    height: auto;
+
+}
+
+#banner{
+    background-image: url('https://4kwallpapers.com/images/wallpapers/johnny-silverhand-cyberpunk-2077-keanu-reeves-game-art-fan-6016x3384-4213.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.titulo{
+    width: 80%;
+align-items: center;
+justify-content: space-between;
+margin-left: 28px;
+color: #FCEE09;
+margin-top: 75px;
+font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.titulo:hover{
+    color:#FF003C;
+}
+
+.titulo2{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 28px;
+    color: #FCEE09;
+    margin-top: 125px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.texto{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 28px;
+    
+    color: #FCEE09;
+    margin-top: 50px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+.texto:hover{
+    color:#00f0ff;
+}
+
+.actor-cards-container{
+    width: 100%;
+    display:inline;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
+.cards-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    row-gap: 40px;
+    column-gap: 40px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+
+}
+
+.card{
+    width: 85%;
+    height: 500px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fcee09;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+color: #00f0ff;
+}
+
+.banner1{
+    background-image: url('https://static.cdprojektred.com/cms.cdprojektred.com/crystal-news/5c4494dcd4d26fcd382a41e3372ed7ff23b1268b.jpg');
+}
+.banner2{
+    background-image: url('https://static.cdprojektred.com/cms.cdprojektred.com/crystal-news/c4e2dd8bdc321c0240114549dd56a2ddc5813009.jpg');
+}
+.banner3{
+    background-image:url('https://static.cdprojektred.com/cms.cdprojektred.com/crystal-news/e41c82d28d1737d079464ab4bd72b0eb45ce9030.jpg') ;
+}
+.banner4{
+    background-image: url("https://static.cdprojektred.com/cms.cdprojektred.com/crystal-news/53a893d223f5ca3ed089023ecb95f8f1eed6405d.jpg");
+}
+.banner5{
+    background-image: url('https://static.cdprojektred.com/cms.cdprojektred.com/crystal-news/cc9b4b986f3096c49aaefb6d93b4d5cefce1e69b.jpg');
+}
+.banner6{
+    background-image: url('https://static.cdprojektred.com/cms.cdprojektred.com/crystal-news/c9613710eed5ca3001bfe0dc02a463739e90d8ad.jpg');
+}
+
+#v1{
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-left: 28px;
+    color: #FCEE09;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+#v2{
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-left: 28px;
+    color: #FCEE09;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+#v3{
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-left: 28px;
+    color: #FCEE09;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+#v4{
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-left: 28px;
+    color: #FCEE09;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+#v5{
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-left: 28px;
+    color: #FCEE09;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+#v6{
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-left: 28px;
+    color: #FCEE09;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span{
+    color: #fcee09;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navegation{
+    display: none;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width:768px){
+    .footer-navegation{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+
+    #banner{
+        background-position: 40%;
+    }
+
+
+    .titulo{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .titulo2{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .texto{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description{
+        width: 100%;
+    }
+
+    .button{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .cards-content{
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+
+    #v1{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #v2{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #v3{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #v4{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #v5{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #v6{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+   
+
+}
+
